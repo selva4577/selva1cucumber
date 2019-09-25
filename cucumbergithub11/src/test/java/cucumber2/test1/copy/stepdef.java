@@ -1,4 +1,4 @@
-package cucumber1.test1;
+package cucumber2.test1.copy;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -34,5 +34,29 @@ public void abc()
    }
 	
 	
+   @Given ("I enter 40 in this calculator")
+   public void abc5()
+   {
+   		System.out.println("I enter 40 in this calculator");
+   }
+   	@And ("I press sub")
+   	public void abc6()
+   	{
+   			System.out.println("I press sub");
+   	}
+   	@And ("I have entered 30 in this calculator")
+   	public void abc7()
+   	{
+   			System.out.println("I have entered 30 in this calculator");
+   	}
+ 
+      
+      @Then("The result should be 10 on the screen")
+       public void abc9()
+      {
+   		System.out.println("The result should be 10 on the screen");
+      }
+   	
+   	
 
 }

@@ -1,4 +1,4 @@
-package cucumber1.test1;
+package cucumber2.test1.copy;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
